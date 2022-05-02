@@ -1,4 +1,4 @@
-# pylint: disable = C0303,C0305,C0114,E0401
+# pylint: disable = C0303,C0305,C0114,E0401,C0116
 from flask import Flask
 
 app = Flask(__name__)
@@ -10,4 +10,3 @@ def index():
 
 if __name__ == "__main__":
     app.run()
-
